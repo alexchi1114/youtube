@@ -2,8 +2,214 @@
 <html>
 <head>
 	<title>YouTube</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 	<link rel = 'stylesheet' type = "text/css" href = 'styles/styles.css' />
 </head>
 <body>
+	<div id = 'navbar'>
+		<div id = 'logo'>
+			<img src = 'images/youtube_icon.png' width = '74' height = '30'>
+		</div>
+
+		<div id = 'search'>
+			<textarea style="font-size:13pt;height:26px;width:600px;border:solid 1px #ccc; border-radius:1px;">Search</textarea>
+		</div>
+
+		<div id = 'signin'>
+			<img src = 'images/sign_in.png' width = '75' height = '40'>
+		</div>
+	</div>
+	<div id = 'video-container'>
+		<div id = 'sidebar'>
+			<h4>Recommended</h4>
+			<div class = 'recommended'>
+				<img src = 'images/recommend1.png' width = '168' height = '94'>
+				<div class = 'recommended-text'>
+					<span>You won't believe what this cat can do with his tail!</span>
+					<br>
+					<span class = 'recommended-small'>CatLoverXoXo</span>
+					<br>
+					<span class = 'recommended-small'>1,203,456 views</span>
+				</div>
+			</div>
+			<div class = 'recommended'>
+				<img src = 'images/recommend2.png' width = '168' height = '94'>
+				<div class = 'recommended-text'>
+					<span>Man finds whale and goes crazy</span>
+					<br>
+					<span class = 'recommended-small'>WhaleLover1234</span>
+					<br>
+					<span class = 'recommended-small'>10,319,012 views</span>
+				</div>
+			</div>
+			<div class = 'recommended'>
+				<img src = 'images/recommend3.png' width = '168' height = '94'>
+				<div class = 'recommended-text'>
+					<span>Irish man can't find his soup!</span>
+					<br>
+					<span class = 'recommended-small'>yeladdy07</span>
+					<br>
+					<span class = 'recommended-small'>570,209</span>
+				</div>
+			</div>
+			<div class = 'recommended'>
+				<img src = 'images/recommend4.png' width = '168' height = '94'>
+				<div class = 'recommended-text'>
+					<span>The secret to shaq's size</span>
+					<br>
+					<span class = 'recommended-small'>howibeatshaq12</span>
+					<br>
+					<span class = 'recommended-small'>104,765,231</span>
+				</div>
+			</div>
+			<div class = 'recommended'>
+				<img src = 'images/recommend5.png' width = '168' height = '94'>
+				<div class = 'recommended-text'>
+					<span>Bootleg Fireworks!!!</span>
+					<br>
+					<span class = 'recommended-small'>thatWasAwesome</span>
+					<br>
+					<span class = 'recommended-small'>110,123</span>
+				</div>
+			</div>
+		</div>
+
+		<div id = 'video'>
+			<iframe width="640" height="360" src="https://www.youtube.com/embed/t3NOYMzVC3s" frameborder="0" allowfullscreen></iframe>
+		</div>
+
+		<div id = 'video-info'>
+			<span>Watch how good this dog minds me</span>
+			<div id = 'author'>
+				<img src = 'images/author_pic.png' height = '48' width = '48'>
+				<div id = 'user-info'>
+					AlexChi
+				</div>
+				<div id = 'subscribe'>
+					<img src = 'images/subscribe.png' height = '26' width = '120'>
+				</div>
+				<div id = 'view-count'>
+					1,538,231 views
+				</div>
+			</div>
+
+			<div id = 'action-buttons'>
+				<img src = 'images/action_buttons.png' width = '610' height = '30'>
+			</div>
+		</div>
+
+		<div id = 'video-description'>
+			<div id = 'published'>
+				Published on Jan 27, 2010
+			</div>
+			<div id = 'description-text'>
+				<p>Today I'm gone show ya'll how this dog minds me. You will see the dog meditatin and all. Gawwwd Joby! I'm over here boy! Don't go in that water!</p>
+			</div>
+		</div>
+
+		<div id = 'comments'>
+			<div id = 'head-comments'>
+				COMMENTS (5)
+			</div>
+			<div id = 'add-comment'>
+				<img src = 'images/generic_avatar.png' height = '48' width = '48'>
+				<div id = 'comment-box'>
+					<textarea style="font-size:8pt;height:40px;width:520px;border:solid 1px #ccc; border-radius:3px;">Leave a public comment...</textarea>
+				</div>
+				
+			</div>
+
+			<div id = 'user-comments'>
+				<div class = 'single-user-comment'>
+					<img src = 'images/comment_pic1.png' height = '48' width = '48'>
+					<span class = 'commenting-user'>
+						Bob Shu
+					</span>
+					<span class = 'comment-date'>
+						5 months ago
+					</span>
+
+					<div class = 'comment-body'>
+						This is a thought-provoking video. The relationship between the ball and Joby is reminiscent of Prometheus and his boulder. Perhaps Joby doesn't want to bring the ball back because he knows it will just get thrown again?
+					</div>
+					<div class = 'reply'>
+						<img src = 'images/reply.png' width = '100' height = '27'>
+					</div>
+				</div>
+
+				<div class = 'single-user-comment'>
+					<img src = 'images/comment_pic2.png' height = '48' width = '48'>
+					<span class = 'commenting-user'>
+						Betsy Devoille
+					</span>
+					<span class = 'comment-date'>
+						6 months ago
+					</span>
+
+					<div class = 'comment-body'>
+						That dog cracks me up!
+					</div>
+					<div class = 'reply'>
+						<img src = 'images/reply.png' width = '100' height = '27'>
+					</div>
+				</div>
+
+				<div class = 'single-user-comment'>
+					<img src = 'images/comment_pic3.png' height = '48' width = '48'>
+					<span class = 'commenting-user'>
+						Bro Johnson
+					</span>
+					<span class = 'comment-date'>
+						1 year ago
+					</span>
+
+					<div class = 'comment-body'>
+						Can't tell if this is a man or a woman...
+					</div>
+					<div class = 'reply'>
+						<img src = 'images/reply.png' width = '100' height = '27'>
+					</div>
+				</div>
+
+				<div class = 'single-user-comment'>
+					<img src = 'images/comment_pic4.png' height = '48' width = '48'>
+					<span class = 'commenting-user'>
+						Internet Creep
+					</span>
+					<span class = 'comment-date'>
+						2 years ago
+					</span>
+
+					<div class = 'comment-body'>
+						I had a dog once
+					</div>
+					<div class = 'reply'>
+						<img src = 'images/reply.png' width = '100' height = '27'>
+					</div>
+				</div>
+
+				<div class = 'single-user-comment'>
+					<img src = 'images/comment_pic5.png' height = '48' width = '48'>
+					<span class = 'commenting-user'>
+						TP
+					</span>
+					<span class = 'comment-date'>
+						A long time ago in a galaxy far, far away
+					</span>
+
+					<div class = 'comment-body'>
+						If you like this video then you'll love 'bootleg fireworks'
+					</div>
+					<div class = 'reply'>
+						<img src = 'images/reply.png' width = '100' height = '27'>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id = 'footer'>
+		</div>
+	</div>
+
 </body>
 </html>
